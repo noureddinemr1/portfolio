@@ -12,7 +12,10 @@ import {
   DiPostgresql,
   DiMongodb,
   DiNodejsSmall,
-  DiReact,
+  DiSpark,
+  DiAws,
+  DiDocker,
+  
 } from "react-icons/di";
 import { motion } from "framer-motion";
 
@@ -38,9 +41,9 @@ const Hero = () => {
           >
             <TypeAnimation
               sequence={[
-                "FullStack Web Dev",
+                "FullStack Developer",
                 1500,
-                "Python Dev",
+                "Web, ETL, Automation",
                 1500,
               ]}
               speed={30}
@@ -163,12 +166,15 @@ const Hero = () => {
           transition={{ duration: 1, delay: 2 }}
           className="flex flex-row items-center justify-center w-full px-8 pt-2 pb-8 md:px-8 md:py-24"
         >
-          <DiReact className="text-6xl transition-transform duration-300 text-cyan-500 hover:-translate-y-1" />
           <SiNextdotjs className="mx-2 text-5xl text-gray-800 transition-transform duration-300 hover:-translate-y-1" />
           <DiNodejsSmall className="mx-2 text-6xl text-green-700 transition-transform duration-300 hover:-translate-y-1" />
-          <DiMongodb className="mx-2 text-6xl transition-transform duration-300 text-lime-600 hover:-translate-y-1" />
           <DiPostgresql className="mx-2 text-6xl transition-transform duration-300 text-sky-700 hover:-translate-y-1" />
+          <DiMongodb className="mx-2 text-6xl transition-transform duration-300 text-lime-600 hover:-translate-y-1" />
           <DiPython className="mx-2 text-6xl transition-transform duration-300 text-sky-700 hover:-translate-y-1" />
+          <DiSpark className="mx-2 text-orange-500 transition-transform duration-300 text-7xl hover:-translate-y-1" />
+          <DiAws className="mx-2 transition-transform duration-300 text-black-700 text-7xl hover:-translate-y-1" />
+          <DiDocker className="mx-2 text-blue-500 transition-transform duration-300 text-8xl hover:-translate-y-1" />
+
         </motion.div>
 
         <div className="absolute inset-0 hidden md:block">
